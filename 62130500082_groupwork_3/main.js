@@ -17,6 +17,9 @@ const app = {
     computed: {
         countLikes() {
             return this.pictures.filter(t => t.like).length
+        },
+        countpicture() {
+            return this.pictures.length
         }
     }
 }

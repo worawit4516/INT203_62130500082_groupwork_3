@@ -24,7 +24,7 @@
 <body>
     <div id="app">
         <div class="flex flex-col items-center">
-            <h1 class="text-xl">Photo Gallery ({{countLikes}})</h1>
+            <h1 class="text-xl">Photo Gallery Likes({{countLikes}}) picture({{countpicture}})</h1>
             <ul v-for="(picture,index) in pictures">
                 <li class="py-4" v-on:click="toggleDone(index)">
                     <button class="bg-gray-300 text-black pr-5 rounded">
