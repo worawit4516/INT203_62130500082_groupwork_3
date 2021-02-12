@@ -1,0 +1,17 @@
+.imgshow {
+    width: 450px;
+    height: 314px;
+    overflow: hidden;
+    text-align: center;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.imgshow:hover {
+    opacity: 1
+}
+
+.imgshow img {
+    width: 450px;
+    height: 300px;
+}
